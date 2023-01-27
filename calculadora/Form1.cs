@@ -89,6 +89,18 @@ namespace calculadora
             }
         }
 
+        private void btnsigno_Click(object sender, EventArgs e)
+        {
+            numero1 = Convert.ToDouble(txtresultado.Text);
+            numero1 *= -1;
+            txtresultado.Text = numero1.ToString();
+        }
+
+        private void btnborrar_Click(object sender, EventArgs e)
+        {
+            txtresultado.Text = "0";
+        }
+
         private void clickoperador(object sender, EventArgs e)
         {
             var boton = ((Button)sender);

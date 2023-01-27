@@ -196,6 +196,7 @@
             this.btnborrar.TabIndex = 10;
             this.btnborrar.Text = "CE";
             this.btnborrar.UseVisualStyleBackColor = true;
+            this.btnborrar.Click += new System.EventHandler(this.btnborrar_Click);
             // 
             // btncuadrado
             // 
@@ -313,6 +314,7 @@
             this.btnsigno.TabIndex = 20;
             this.btnsigno.Text = "+∕-";
             this.btnsigno.UseVisualStyleBackColor = true;
+            this.btnsigno.Click += new System.EventHandler(this.btnsigno_Click);
             // 
             // Form1
             // 
