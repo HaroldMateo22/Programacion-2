@@ -56,8 +56,15 @@ namespace calculadora
             }
             else if (operador == '∕')
             {
-                txtresultado.Text = (numero1 / numero2).ToString();
-                numero1 = Convert.ToDouble(txtresultado.Text);
+                if (txtresultado.Text != "0")
+                {
+                    txtresultado.Text = (numero1 / numero2).ToString();
+                    numero1 = Convert.ToDouble(txtresultado.Text);
+                }
+                else
+                {
+                    MessageBox.Show("No se puede dividir por cero");
+                }
             }
         }
 
