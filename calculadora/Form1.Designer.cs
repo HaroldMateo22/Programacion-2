@@ -174,6 +174,7 @@
             this.button10.TabIndex = 12;
             this.button10.Text = "<-";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // btnborrartodo
             // 
@@ -226,6 +227,7 @@
             this.btnmultiplicar.Name = "btnmultiplicar";
             this.btnmultiplicar.Size = new System.Drawing.Size(82, 82);
             this.btnmultiplicar.TabIndex = 16;
+            this.btnmultiplicar.Tag = "X";
             this.btnmultiplicar.Text = "X";
             this.btnmultiplicar.UseVisualStyleBackColor = true;
             this.btnmultiplicar.Click += new System.EventHandler(this.clickoperador);

@@ -61,14 +61,38 @@ namespace calculadora
             }
         }
 
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if (txtresultado.Text.Length > 1)
+            { 
+                txtresultado.Text = txtresultado.Text.Substring(0, txtresultado.Text.Length - 1);
+            }
+            else
+            {
+                txtresultado.Text = "0";
+            }
+        }
+
         private void clickoperador(object sender, EventArgs e)
         {
             var boton = ((Button)sender);
-
             numero1 = Convert.ToDouble(txtresultado.Text);
             operador = Convert.ToChar(boton.Tag);
 
-            txtresultado.Text = "0";
+            if (operador == '²')
+            {
+                numero1 = Math.Pow(numero1, 2);
+                txtresultado.Text = numero1.ToString();
+            }
+            else if (operador == '√')
+            {
+                numero1 = Math.Sqrt(numero1);
+                txtresultado.Text = numero1.ToString();
+            }
+            else
+            {
+                txtresultado.Text = "0";
+            }
         }
     }
 }
