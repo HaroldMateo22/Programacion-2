@@ -79,6 +79,7 @@
             // 
             this.txtresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtresultado.Location = new System.Drawing.Point(23, 38);
+            this.txtresultado.MaxLength = 20;
             this.txtresultado.Multiline = true;
             this.txtresultado.Name = "txtresultado";
             this.txtresultado.ReadOnly = true;
@@ -201,8 +202,10 @@
             this.btncuadrado.Name = "btncuadrado";
             this.btncuadrado.Size = new System.Drawing.Size(82, 82);
             this.btncuadrado.TabIndex = 14;
-            this.btncuadrado.Text = "√²";
+            this.btncuadrado.Tag = "²";
+            this.btncuadrado.Text = "x²";
             this.btncuadrado.UseVisualStyleBackColor = true;
+            this.btncuadrado.Click += new System.EventHandler(this.clickoperador);
             // 
             // btnraizcuadrada
             // 
@@ -211,8 +214,10 @@
             this.btnraizcuadrada.Name = "btnraizcuadrada";
             this.btnraizcuadrada.Size = new System.Drawing.Size(82, 82);
             this.btnraizcuadrada.TabIndex = 13;
+            this.btnraizcuadrada.Tag = "√";
             this.btnraizcuadrada.Text = "√";
             this.btnraizcuadrada.UseVisualStyleBackColor = true;
+            this.btnraizcuadrada.Click += new System.EventHandler(this.clickoperador);
             // 
             // btnmultiplicar
             // 
@@ -223,6 +228,7 @@
             this.btnmultiplicar.TabIndex = 16;
             this.btnmultiplicar.Text = "X";
             this.btnmultiplicar.UseVisualStyleBackColor = true;
+            this.btnmultiplicar.Click += new System.EventHandler(this.clickoperador);
             // 
             // btndividir
             // 
@@ -231,8 +237,10 @@
             this.btndividir.Name = "btndividir";
             this.btndividir.Size = new System.Drawing.Size(82, 82);
             this.btndividir.TabIndex = 15;
+            this.btndividir.Tag = "∕";
             this.btndividir.Text = "∕";
             this.btndividir.UseVisualStyleBackColor = true;
+            this.btndividir.Click += new System.EventHandler(this.clickoperador);
             // 
             // btnrestar
             // 
@@ -241,8 +249,10 @@
             this.btnrestar.Name = "btnrestar";
             this.btnrestar.Size = new System.Drawing.Size(82, 82);
             this.btnrestar.TabIndex = 18;
+            this.btnrestar.Tag = "─";
             this.btnrestar.Text = "─";
             this.btnrestar.UseVisualStyleBackColor = true;
+            this.btnrestar.Click += new System.EventHandler(this.clickoperador);
             // 
             // btnsumar
             // 
@@ -251,8 +261,10 @@
             this.btnsumar.Name = "btnsumar";
             this.btnsumar.Size = new System.Drawing.Size(82, 82);
             this.btnsumar.TabIndex = 17;
+            this.btnsumar.Tag = "+";
             this.btnsumar.Text = "+";
             this.btnsumar.UseVisualStyleBackColor = true;
+            this.btnsumar.Click += new System.EventHandler(this.clickoperador);
             // 
             // btnresultado
             // 
@@ -261,8 +273,10 @@
             this.btnresultado.Name = "btnresultado";
             this.btnresultado.Size = new System.Drawing.Size(175, 82);
             this.btnresultado.TabIndex = 19;
+            this.btnresultado.Tag = "=";
             this.btnresultado.Text = "=";
             this.btnresultado.UseVisualStyleBackColor = true;
+            this.btnresultado.Click += new System.EventHandler(this.btnresultado_Click);
             // 
             // btnpunto
             // 
@@ -271,6 +285,7 @@
             this.btnpunto.Name = "btnpunto";
             this.btnpunto.Size = new System.Drawing.Size(82, 82);
             this.btnpunto.TabIndex = 22;
+            this.btnpunto.Tag = ".";
             this.btnpunto.Text = ".";
             this.btnpunto.UseVisualStyleBackColor = true;
             // 
@@ -325,6 +340,7 @@
             this.Controls.Add(this.btn1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
