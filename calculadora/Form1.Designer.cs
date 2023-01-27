@@ -185,6 +185,7 @@
             this.btnborrartodo.TabIndex = 11;
             this.btnborrartodo.Text = "C";
             this.btnborrartodo.UseVisualStyleBackColor = true;
+            this.btnborrartodo.Click += new System.EventHandler(this.btnborrartodo_Click);
             // 
             // btnborrar
             // 
@@ -290,6 +291,7 @@
             this.btnpunto.Tag = ".";
             this.btnpunto.Text = ".";
             this.btnpunto.UseVisualStyleBackColor = true;
+            this.btnpunto.Click += new System.EventHandler(this.btnpunto_Click);
             // 
             // btn0
             // 

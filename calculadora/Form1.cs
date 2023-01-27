@@ -73,6 +73,22 @@ namespace calculadora
             }
         }
 
+        private void btnborrartodo_Click(object sender, EventArgs e)
+        {
+            numero1 = 0;
+            numero2 = 0;
+            operador = '\0';
+            txtresultado.Text = "0";
+        }
+
+        private void btnpunto_Click(object sender, EventArgs e)
+        {
+            if (!txtresultado.Text.Contains("."))
+            {
+                txtresultado.Text += ".";
+            }
+        }
+
         private void clickoperador(object sender, EventArgs e)
         {
             var boton = ((Button)sender);
