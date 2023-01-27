@@ -1,0 +1,11 @@
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\bin\Debug\calculadora.exe.config
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\bin\Debug\calculadora.exe
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\bin\Debug\calculadora.pdb
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\obj\Debug\calculadora.csproj.AssemblyReference.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\obj\Debug\calculadora.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\obj\Debug\calculadora.Form1.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\obj\Debug\calculadora.Properties.Resources.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\obj\Debug\calculadora.csproj.GenerateResource.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\obj\Debug\calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\obj\Debug\calculadora.exe
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\calculadora\obj\Debug\calculadora.pdb

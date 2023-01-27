@@ -15,12 +15,16 @@ namespace calculadora
         public Form1()
         {
             InitializeComponent();
-
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void agregarnumero(object sender, EventArgs e)
         {
+            var boton = ((Button)sender);
 
+            if (txtresultado.Text == "0")
+                txtresultado.Text = "";
+
+            txtresultado.Text += boton.Text;
         }
     }
 }
