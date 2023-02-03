@@ -46,7 +46,18 @@ namespace WindowsFormsApp1
                 btnnumero.FlatAppearance.MouseDownBackColor = Color.Transparent;
                 btnnumero.FlatAppearance.MouseOverBackColor = Color.Transparent;
                 panelnumerico.Controls.Add(btnnumero);
+                btnnumero.Click += Btnnumero_Click;
             }
+        }
+
+        private void Btnnumero_Click(object sender, EventArgs e)
+        {
+            string numerostring = ((Button)sender).Text;
+            if(txtpantalla.Text == "0")
+            {
+                txtpantalla.Clear();
+            }
+            txtpantalla.Text += numerostring;
         }
     }
 }

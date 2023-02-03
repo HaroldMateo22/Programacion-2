@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ejercicio6));
             this.lblejercicio = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblnum1 = new System.Windows.Forms.Label();
+            this.lbloperacion = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtpantalla = new System.Windows.Forms.TextBox();
             this.panelnumerico = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.button4 = new System.Windows.Forms.Button();
@@ -67,10 +67,10 @@
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.lblnum1);
+            this.panel1.Controls.Add(this.lbloperacion);
             this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtpantalla);
             this.panel1.Controls.Add(this.panelnumerico);
             this.panel1.Controls.Add(this.flowLayoutPanel2);
             this.panel1.Controls.Add(this.flowLayoutPanel1);
@@ -81,29 +81,29 @@
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label2
+            // lblnum1
             // 
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(300, 148);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(248, 39);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "0";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblnum1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblnum1.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnum1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblnum1.Location = new System.Drawing.Point(300, 148);
+            this.lblnum1.Name = "lblnum1";
+            this.lblnum1.Size = new System.Drawing.Size(248, 39);
+            this.lblnum1.TabIndex = 6;
+            this.lblnum1.Text = "0";
+            this.lblnum1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label1
+            // lbloperacion
             // 
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Orange;
-            this.label1.Location = new System.Drawing.Point(522, 187);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 39);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "0";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbloperacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbloperacion.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbloperacion.ForeColor = System.Drawing.Color.Orange;
+            this.lbloperacion.Location = new System.Drawing.Point(412, 187);
+            this.lbloperacion.Name = "lbloperacion";
+            this.lbloperacion.Size = new System.Drawing.Size(136, 39);
+            this.lbloperacion.TabIndex = 5;
+            this.lbloperacion.Text = "0";
+            this.lbloperacion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // button9
             // 
@@ -122,19 +122,19 @@
             this.button9.TabIndex = 4;
             this.button9.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtpantalla
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Consolas", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(346, 226);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(202, 63);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "0";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtpantalla.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtpantalla.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtpantalla.Font = new System.Drawing.Font("Consolas", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpantalla.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtpantalla.Location = new System.Drawing.Point(346, 226);
+            this.txtpantalla.Name = "txtpantalla";
+            this.txtpantalla.ReadOnly = true;
+            this.txtpantalla.Size = new System.Drawing.Size(202, 63);
+            this.txtpantalla.TabIndex = 3;
+            this.txtpantalla.Text = "0";
+            this.txtpantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // panelnumerico
             // 
@@ -352,7 +352,7 @@
         private System.Windows.Forms.Label lblejercicio;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtpantalla;
         private System.Windows.Forms.FlowLayoutPanel panelnumerico;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Button button4;
@@ -364,8 +364,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblnum1;
+        private System.Windows.Forms.Label lbloperacion;
     }
 }
 
