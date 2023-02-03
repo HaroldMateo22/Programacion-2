@@ -16,10 +16,11 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
+        public string titulo;
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            dibujarpanelnumerico();
+            lblejercicio.Text = titulo;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -39,7 +40,12 @@ namespace WindowsFormsApp1
                 btnnumero.FlatStyle = FlatStyle.Flat;
                 btnnumero.ForeColor = Color.White;
                 btnnumero.BackColor = Color.Transparent;
-
+                btnnumero.BackgroundImage = Properties.Resources.circulogrisclaro;
+                btnnumero.BackgroundImageLayout = ImageLayout.Stretch;
+                btnnumero.FlatAppearance.BorderSize = 0;
+                btnnumero.FlatAppearance.MouseDownBackColor = Color.Transparent;
+                btnnumero.FlatAppearance.MouseOverBackColor = Color.Transparent;
+                panelnumerico.Controls.Add(btnnumero);
             }
         }
     }
