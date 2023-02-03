@@ -37,7 +37,7 @@
             this.txtpantalla = new System.Windows.Forms.TextBox();
             this.panelnumerico = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btndiv = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -129,6 +129,7 @@
             this.txtpantalla.Font = new System.Drawing.Font("Consolas", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpantalla.ForeColor = System.Drawing.SystemColors.Window;
             this.txtpantalla.Location = new System.Drawing.Point(346, 226);
+            this.txtpantalla.MaxLength = 7;
             this.txtpantalla.Name = "txtpantalla";
             this.txtpantalla.ReadOnly = true;
             this.txtpantalla.Size = new System.Drawing.Size(202, 63);
@@ -145,7 +146,7 @@
             // 
             // flowLayoutPanel2
             // 
-            this.flowLayoutPanel2.Controls.Add(this.button4);
+            this.flowLayoutPanel2.Controls.Add(this.btndiv);
             this.flowLayoutPanel2.Controls.Add(this.button5);
             this.flowLayoutPanel2.Controls.Add(this.button6);
             this.flowLayoutPanel2.Controls.Add(this.button7);
@@ -155,25 +156,26 @@
             this.flowLayoutPanel2.Size = new System.Drawing.Size(59, 309);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
-            // button4
+            // btndiv
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(3, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(55, 55);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "/";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btndiv.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btndiv.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btndiv.BackgroundImage")));
+            this.btndiv.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btndiv.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btndiv.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btndiv.FlatAppearance.BorderSize = 0;
+            this.btndiv.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btndiv.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btndiv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndiv.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndiv.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btndiv.Location = new System.Drawing.Point(3, 3);
+            this.btndiv.Name = "btndiv";
+            this.btndiv.Size = new System.Drawing.Size(55, 55);
+            this.btndiv.TabIndex = 1;
+            this.btndiv.Text = "/";
+            this.btndiv.UseVisualStyleBackColor = false;
+            this.btndiv.Click += new System.EventHandler(this.btndiv_Click);
             // 
             // button5
             // 
@@ -355,7 +357,7 @@
         private System.Windows.Forms.TextBox txtpantalla;
         private System.Windows.Forms.FlowLayoutPanel panelnumerico;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btndiv;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;

@@ -17,6 +17,11 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
         public string titulo;
+        string operacion;
+        double num1;
+        double num2;
+        double resultado;
+
         private void Form1_Load(object sender, EventArgs e)
         {
             dibujarpanelnumerico();
@@ -58,6 +63,28 @@ namespace WindowsFormsApp1
                 txtpantalla.Clear();
             }
             txtpantalla.Text += numerostring;
+        }
+
+        private void btndiv_Click(object sender, EventArgs e)
+        {
+            operacion = btndiv.Text;
+            definiroperacion();
+
+        }
+        private void definiroperacion()
+        {
+            asignardatos();
+            if(num2 > 0)
+            {
+                lblnum1.Text = txtpantalla.Text;
+                lbloperacion.Text = operacion;
+                txtpantalla.Text = "0";
+            }
+        }
+        private void asignardatos()
+        {
+            num1 = Convert.ToDouble(lblnum1.Text);
+            num2 = Convert.ToDouble(txtpantalla.Text);
         }
     }
 }
