@@ -41,7 +41,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnigual = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -150,7 +150,7 @@
             this.flowLayoutPanel2.Controls.Add(this.button5);
             this.flowLayoutPanel2.Controls.Add(this.button6);
             this.flowLayoutPanel2.Controls.Add(this.button7);
-            this.flowLayoutPanel2.Controls.Add(this.button8);
+            this.flowLayoutPanel2.Controls.Add(this.btnigual);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(489, 295);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(59, 309);
@@ -237,25 +237,26 @@
             this.button7.Text = "+";
             this.button7.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // btnigual
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button8.Location = new System.Drawing.Point(3, 247);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(55, 55);
-            this.button8.TabIndex = 5;
-            this.button8.Text = "=";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnigual.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnigual.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnigual.BackgroundImage")));
+            this.btnigual.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnigual.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnigual.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnigual.FlatAppearance.BorderSize = 0;
+            this.btnigual.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnigual.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnigual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnigual.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnigual.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnigual.Location = new System.Drawing.Point(3, 247);
+            this.btnigual.Name = "btnigual";
+            this.btnigual.Size = new System.Drawing.Size(55, 55);
+            this.btnigual.TabIndex = 5;
+            this.btnigual.Text = "=";
+            this.btnigual.UseVisualStyleBackColor = false;
+            this.btnigual.Click += new System.EventHandler(this.btnigual_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -361,7 +362,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnigual;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

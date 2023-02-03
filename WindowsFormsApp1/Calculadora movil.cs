@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -85,6 +86,26 @@ namespace WindowsFormsApp1
         {
             num1 = Convert.ToDouble(lblnum1.Text);
             num2 = Convert.ToDouble(txtpantalla.Text);
+        }
+
+        private void btnigual_Click(object sender, EventArgs e)
+        {
+            calcular();
+        }
+        private void calcular()
+        {
+            asignardatos();
+            if(lbloperacion.Text == btndiv.Text)
+            {
+                dividir();
+            }
+            void dividir()
+            {
+                resultado = num1 / num2;
+                txtpantalla.Text = resultado.ToString();
+                lbloperacion.Text = "0";
+                lblnum1.Text = "0";
+            }
         }
     }
 }
