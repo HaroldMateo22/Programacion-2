@@ -38,7 +38,7 @@
             this.panelnumerico = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btndiv = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnmult = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.btnigual = new System.Windows.Forms.Button();
@@ -147,7 +147,7 @@
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.Controls.Add(this.btndiv);
-            this.flowLayoutPanel2.Controls.Add(this.button5);
+            this.flowLayoutPanel2.Controls.Add(this.btnmult);
             this.flowLayoutPanel2.Controls.Add(this.button6);
             this.flowLayoutPanel2.Controls.Add(this.button7);
             this.flowLayoutPanel2.Controls.Add(this.btnigual);
@@ -177,25 +177,26 @@
             this.btndiv.UseVisualStyleBackColor = false;
             this.btndiv.Click += new System.EventHandler(this.btndiv_Click);
             // 
-            // button5
+            // btnmult
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(3, 64);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(55, 55);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "X";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnmult.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnmult.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnmult.BackgroundImage")));
+            this.btnmult.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnmult.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnmult.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnmult.FlatAppearance.BorderSize = 0;
+            this.btnmult.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnmult.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnmult.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmult.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmult.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnmult.Location = new System.Drawing.Point(3, 64);
+            this.btnmult.Name = "btnmult";
+            this.btnmult.Size = new System.Drawing.Size(55, 55);
+            this.btnmult.TabIndex = 2;
+            this.btnmult.Text = "X";
+            this.btnmult.UseVisualStyleBackColor = false;
+            this.btnmult.Click += new System.EventHandler(this.btnmult_Click);
             // 
             // button6
             // 
@@ -359,7 +360,7 @@
         private System.Windows.Forms.FlowLayoutPanel panelnumerico;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Button btndiv;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnmult;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button btnigual;

@@ -109,7 +109,16 @@ namespace WindowsFormsApp1
             {
                 Dividir();
             }
-        
+            if (lbloperacion.Text == btnmult.Text)
+            {
+                Multiplicar();
+            }
+        }
+        private void Multiplicar()
+        {
+            resultado = num1* num2;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
         }
         private void Limpiar()
         {
@@ -124,6 +133,12 @@ namespace WindowsFormsApp1
             lbloperacion.Text = "0";
             lblnum1.Text = "0";
             Limpiar();
+        }
+
+        private void btnmult_Click(object sender, EventArgs e)
+        {
+            operacion = btnmult.Text;
+            definiroperacion();
         }
     }
 }
