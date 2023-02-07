@@ -22,6 +22,7 @@ namespace WindowsFormsApp1
         double num1;
         double num2;
         double resultado;
+        bool reiniciar = false;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -58,12 +59,21 @@ namespace WindowsFormsApp1
 
         private void Btnnumero_Click(object sender, EventArgs e)
         {
+            Reiniciarprocesos();
             string numerostring = ((Button)sender).Text;
             if(txtpantalla.Text == "0")
             {
                 txtpantalla.Clear();
             }
             txtpantalla.Text += numerostring;
+        }
+        private void Reiniciarprocesos()
+        {
+            if (reiniciar == true)
+            {
+                txtpantalla.Text = "0";
+                reiniciar = false;
+            }
         }
 
         private void btndiv_Click(object sender, EventArgs e)
@@ -97,15 +107,24 @@ namespace WindowsFormsApp1
             asignardatos();
             if(lbloperacion.Text == btndiv.Text)
             {
-                dividir();
+                Dividir();
             }
-            void dividir()
-            {
-                resultado = num1 / num2;
-                txtpantalla.Text = resultado.ToString();
-                lbloperacion.Text = "0";
-                lblnum1.Text = "0";
-            }
+        
+        }
+        private void Limpiar()
+        {
+            reiniciar = true;
+            lbloperacion.Text = "0";
+            lblnum1.Text = "0";
+        }
+        private void Dividir()
+        {
+            resultado = num1 / num2;
+            txtpantalla.Text = resultado.ToString();
+            lbloperacion.Text = "0";
+            lblnum1.Text = "0";
+            Limpiar();
         }
     }
 }
+
