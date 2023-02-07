@@ -113,6 +113,16 @@ namespace WindowsFormsApp1
             {
                 Multiplicar();
             }
+            if (lbloperacion.Text == btnresta.Text)
+            {
+                Resta();
+            }
+        }
+        private void Resta()
+        {
+            resultado = num1 - num2;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
         }
         private void Multiplicar()
         {
@@ -138,6 +148,12 @@ namespace WindowsFormsApp1
         private void btnmult_Click(object sender, EventArgs e)
         {
             operacion = btnmult.Text;
+            definiroperacion();
+        }
+
+        private void btnresta_Click(object sender, EventArgs e)
+        {
+            operacion= btnresta.Text;
             definiroperacion();
         }
     }

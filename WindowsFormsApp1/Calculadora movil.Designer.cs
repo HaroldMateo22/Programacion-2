@@ -39,7 +39,7 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btndiv = new System.Windows.Forms.Button();
             this.btnmult = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnresta = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.btnigual = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -148,7 +148,7 @@
             // 
             this.flowLayoutPanel2.Controls.Add(this.btndiv);
             this.flowLayoutPanel2.Controls.Add(this.btnmult);
-            this.flowLayoutPanel2.Controls.Add(this.button6);
+            this.flowLayoutPanel2.Controls.Add(this.btnresta);
             this.flowLayoutPanel2.Controls.Add(this.button7);
             this.flowLayoutPanel2.Controls.Add(this.btnigual);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(489, 295);
@@ -198,25 +198,26 @@
             this.btnmult.UseVisualStyleBackColor = false;
             this.btnmult.Click += new System.EventHandler(this.btnmult_Click);
             // 
-            // button6
+            // btnresta
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Location = new System.Drawing.Point(3, 125);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(55, 55);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "-";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnresta.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnresta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnresta.BackgroundImage")));
+            this.btnresta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnresta.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnresta.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnresta.FlatAppearance.BorderSize = 0;
+            this.btnresta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnresta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnresta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnresta.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnresta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnresta.Location = new System.Drawing.Point(3, 125);
+            this.btnresta.Name = "btnresta";
+            this.btnresta.Size = new System.Drawing.Size(55, 55);
+            this.btnresta.TabIndex = 3;
+            this.btnresta.Text = "-";
+            this.btnresta.UseVisualStyleBackColor = false;
+            this.btnresta.Click += new System.EventHandler(this.btnresta_Click);
             // 
             // button7
             // 
@@ -361,7 +362,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Button btndiv;
         private System.Windows.Forms.Button btnmult;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnresta;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button btnigual;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
