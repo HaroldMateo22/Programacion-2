@@ -23,6 +23,7 @@ namespace WindowsFormsApp1
         double num2;
         double resultado;
         bool reiniciar = false;
+        bool punto = true;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -52,6 +53,7 @@ namespace WindowsFormsApp1
                 btnnumero.FlatAppearance.BorderSize = 0;
                 btnnumero.FlatAppearance.MouseDownBackColor = Color.Transparent;
                 btnnumero.FlatAppearance.MouseOverBackColor = Color.Transparent;
+                btnnumero.Cursor = Cursors.Hand;
                 panelnumerico.Controls.Add(btnnumero);
                 btnnumero.Click += Btnnumero_Click;
             }
@@ -61,11 +63,30 @@ namespace WindowsFormsApp1
         {
             Reiniciarprocesos();
             string numerostring = ((Button)sender).Text;
-            if(txtpantalla.Text == "0")
+            if(numerostring == ".")
             {
-                txtpantalla.Clear();
+                punto = true;
+                if (txtpantalla.Text .Contains("."))
+                {
+                    punto = false;
+                }
+                if (punto == true)
+                {
+                    if (txtpantalla.Text != "")
+                    {
+                        txtpantalla.Text += ".";
+                    }
+                }
             }
-            txtpantalla.Text += numerostring;
+            else
+            {
+                if (txtpantalla.Text == "0")
+                {
+                    txtpantalla.Clear();
+                }
+                txtpantalla.Text += numerostring;
+            }
+            
         }
         private void Reiniciarprocesos()
         {
@@ -90,6 +111,8 @@ namespace WindowsFormsApp1
                 lblnum1.Text = txtpantalla.Text;
                 lbloperacion.Text = operacion;
                 txtpantalla.Text = "0";
+                lblnum1.Visible = true;
+                lbloperacion.Visible = true;
             }
         }
         private void asignardatos()
@@ -117,6 +140,26 @@ namespace WindowsFormsApp1
             {
                 Resta();
             }
+            if (lbloperacion.Text == btnsuma.Text)
+            {
+                Sumar();
+            }
+            if (lbloperacion.Text == btnporcent.Text)
+            {
+                Porcentaje();
+            }
+        }
+        private void Porcentaje()
+        {
+            resultado = num1 * num2 / 100;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
+        }
+        private void Sumar()
+        {
+            resultado = num1 + num2;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
         }
         private void Resta()
         {
@@ -135,6 +178,8 @@ namespace WindowsFormsApp1
             reiniciar = true;
             lbloperacion.Text = "0";
             lblnum1.Text = "0";
+            lbloperacion.Visible = false;
+            lblnum1.Visible = false;
         }
         private void Dividir()
         {
@@ -155,6 +200,39 @@ namespace WindowsFormsApp1
         {
             operacion= btnresta.Text;
             definiroperacion();
+        }
+
+        private void btnsuma_Click(object sender, EventArgs e)
+        {
+            operacion= btnsuma.Text;
+            definiroperacion();
+        }
+
+        private void btnporcent_Click(object sender, EventArgs e)
+        {
+            operacion = btnporcent.Text;
+            definiroperacion();
+        }
+
+        private void btnborrar_Click(object sender, EventArgs e)
+        {
+            Borrar();
+        }
+        private void Borrar()
+        {
+            txtpantalla.Text = "0";
+            lbloperacion.Text = "0";
+            lblnum1.Text = "0";
+        }
+
+        private void btnoff_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btncopiar_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(txtpantalla.Text);
         }
     }
 }
