@@ -1,0 +1,11 @@
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\bin\Debug\Cuantos años tengo.exe.config
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\bin\Debug\Cuantos años tengo.exe
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\bin\Debug\Cuantos años tengo.pdb
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\obj\Debug\Cuantos años tengo.csproj.AssemblyReference.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\obj\Debug\Cuantos años tengo.csproj.SuggestedBindingRedirects.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\obj\Debug\Cuantos_años_tengo.Form1.resources
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\obj\Debug\Cuantos_años_tengo.Properties.Resources.resources
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\obj\Debug\Cuantos años tengo.csproj.GenerateResource.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\obj\Debug\Cuantos años tengo.csproj.CoreCompileInputs.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\obj\Debug\Cuantos años tengo.exe
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Cuantos años tengo\obj\Debug\Cuantos años tengo.pdb
