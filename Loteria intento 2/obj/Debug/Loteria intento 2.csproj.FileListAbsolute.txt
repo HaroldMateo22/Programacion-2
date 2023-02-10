@@ -1,0 +1,11 @@
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\bin\Debug\Loteria intento 2.exe.config
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\bin\Debug\Loteria intento 2.exe
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\bin\Debug\Loteria intento 2.pdb
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\obj\Debug\Loteria intento 2.csproj.AssemblyReference.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\obj\Debug\Loteria intento 2.csproj.SuggestedBindingRedirects.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\obj\Debug\Loteria_intento_2.Form1.resources
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\obj\Debug\Loteria_intento_2.Properties.Resources.resources
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\obj\Debug\Loteria intento 2.csproj.GenerateResource.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\obj\Debug\Loteria intento 2.csproj.CoreCompileInputs.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\obj\Debug\Loteria intento 2.exe
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\Loteria intento 2\obj\Debug\Loteria intento 2.pdb
