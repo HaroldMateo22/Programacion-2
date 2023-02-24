@@ -1,0 +1,11 @@
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\bin\Debug\LIstBox.exe.config
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\bin\Debug\LIstBox.exe
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\bin\Debug\LIstBox.pdb
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\obj\Debug\LIstBox.csproj.AssemblyReference.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\obj\Debug\LIstBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\obj\Debug\LIstBox.Form1.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\obj\Debug\LIstBox.Properties.Resources.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\obj\Debug\LIstBox.csproj.GenerateResource.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\obj\Debug\LIstBox.csproj.CoreCompileInputs.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\obj\Debug\LIstBox.exe
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LIstBox\obj\Debug\LIstBox.pdb
