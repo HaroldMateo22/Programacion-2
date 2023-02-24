@@ -1,0 +1,11 @@
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\bin\Debug\DataGrid.exe.config
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\bin\Debug\DataGrid.exe
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\bin\Debug\DataGrid.pdb
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\obj\Debug\DataGrid.csproj.AssemblyReference.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\obj\Debug\DataGrid.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\obj\Debug\DataGrid.Form1.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\obj\Debug\DataGrid.Properties.Resources.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\obj\Debug\DataGrid.csproj.GenerateResource.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\obj\Debug\DataGrid.csproj.CoreCompileInputs.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\obj\Debug\DataGrid.exe
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\DataGrid\obj\Debug\DataGrid.pdb
