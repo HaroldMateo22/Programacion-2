@@ -1,0 +1,11 @@
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\bin\Debug\ComboBox.exe.config
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\bin\Debug\ComboBox.exe
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\bin\Debug\ComboBox.pdb
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\obj\Debug\ComboBox.csproj.AssemblyReference.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\obj\Debug\ComboBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\obj\Debug\ComboBox.Form1.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\obj\Debug\ComboBox.Properties.Resources.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\obj\Debug\ComboBox.csproj.GenerateResource.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\obj\Debug\ComboBox.csproj.CoreCompileInputs.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\obj\Debug\ComboBox.exe
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\ComboBox\obj\Debug\ComboBox.pdb
