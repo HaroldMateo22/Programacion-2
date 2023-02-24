@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "mdi menu y progress/1.0.0": {
+        "runtime": {
+          "mdi menu y progress.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mdi menu y progress/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

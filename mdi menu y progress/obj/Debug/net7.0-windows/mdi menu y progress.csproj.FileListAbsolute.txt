@@ -1,0 +1,19 @@
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\bin\Debug\net7.0-windows\mdi menu y progress.exe
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\bin\Debug\net7.0-windows\mdi menu y progress.deps.json
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\bin\Debug\net7.0-windows\mdi menu y progress.runtimeconfig.json
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\bin\Debug\net7.0-windows\mdi menu y progress.dll
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\bin\Debug\net7.0-windows\mdi menu y progress.pdb
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi menu y progress.csproj.AssemblyReference.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi_menu_y_progress.Form1.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi_menu_y_progress.Form2.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi_menu_y_progress.Properties.Resources.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi menu y progress.csproj.GenerateResource.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi menu y progress.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi menu y progress.AssemblyInfoInputs.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi menu y progress.AssemblyInfo.cs
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi menu y progress.csproj.CoreCompileInputs.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi menu y progress.dll
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\refint\mdi menu y progress.dll
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi menu y progress.pdb
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\mdi menu y progress.genruntimeconfig.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\mdi menu y progress\obj\Debug\net7.0-windows\ref\mdi menu y progress.dll
