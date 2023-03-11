@@ -1,0 +1,12 @@
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\bin\Debug\FormsMDI.exe.config
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\bin\Debug\FormsMDI.exe
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\bin\Debug\FormsMDI.pdb
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\obj\Debug\FormsMDI.csproj.AssemblyReference.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\obj\Debug\FormsMDI.csproj.SuggestedBindingRedirects.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\obj\Debug\FormsMDI.Form1.resources
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\obj\Debug\FormsMDI.Form2.resources
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\obj\Debug\FormsMDI.Properties.Resources.resources
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\obj\Debug\FormsMDI.csproj.GenerateResource.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\obj\Debug\FormsMDI.csproj.CoreCompileInputs.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\obj\Debug\FormsMDI.exe
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\FormsMDI\obj\Debug\FormsMDI.pdb
