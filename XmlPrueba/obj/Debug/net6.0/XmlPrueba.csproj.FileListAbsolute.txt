@@ -1,0 +1,17 @@
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\bin\Debug\net6.0\XmlPrueba.exe
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\bin\Debug\net6.0\XmlPrueba.deps.json
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\bin\Debug\net6.0\XmlPrueba.runtimeconfig.json
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\bin\Debug\net6.0\XmlPrueba.dll
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\bin\Debug\net6.0\XmlPrueba.pdb
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\XmlPrueba.csproj.AssemblyReference.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\XmlPrueba.Properties.Resources.resources
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\XmlPrueba.csproj.GenerateResource.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\XmlPrueba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\XmlPrueba.AssemblyInfoInputs.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\XmlPrueba.AssemblyInfo.cs
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\XmlPrueba.csproj.CoreCompileInputs.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\XmlPrueba.dll
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\refint\XmlPrueba.dll
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\XmlPrueba.pdb
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\XmlPrueba.genruntimeconfig.cache
+C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\XmlPrueba\obj\Debug\net6.0\ref\XmlPrueba.dll
