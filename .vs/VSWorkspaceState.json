@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\calculadora"
+    "\\calculadora",
+    "\\LiteDBProject"
   ],
+  "SelectedNode": "\\LiteDBProject\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

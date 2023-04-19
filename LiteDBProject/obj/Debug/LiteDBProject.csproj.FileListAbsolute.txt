@@ -12,3 +12,11 @@ C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\LiteDBProject\obj\Debug\LiteDBPr
 C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\LiteDBProject\obj\Debug\LiteDBProject.csproj.CopyComplete
 C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\LiteDBProject\obj\Debug\LiteDBProject.exe
 C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\LiteDBProject\obj\Debug\LiteDBProject.pdb
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LiteDBProject\obj\Debug\LiteDBProject.csproj.AssemblyReference.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LiteDBProject\obj\Debug\LiteDBProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LiteDBProject\obj\Debug\LiteDBProject.Form1.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LiteDBProject\obj\Debug\LiteDBProject.Properties.Resources.resources
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LiteDBProject\obj\Debug\LiteDBProject.csproj.GenerateResource.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LiteDBProject\obj\Debug\LiteDBProject.csproj.CoreCompileInputs.cache
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LiteDBProject\obj\Debug\LiteDBProject.exe
+C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LiteDBProject\obj\Debug\LiteDBProject.pdb
