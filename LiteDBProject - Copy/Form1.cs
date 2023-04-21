@@ -10,8 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Reflection;
 using System.Xml;
-
-
+using System.Xml.Linq;
+using System.CodeDom.Compiler;
 
 namespace LiteDBProject
 {
@@ -33,10 +33,13 @@ namespace LiteDBProject
         public Form1()
         {
             InitializeComponent();
-            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\LiteDBProject\Resources\XmlPersonas.xml");
-            UsingXmlReader(path);
         }
 
+        static void Main(string[] args)
+        {
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LiteDBProject - Copy\Resources\XmlPersonas.xml");
+            UsingXmlReader(path);
+        }
 
         private static void UsingXmlReader(string path)
         {
@@ -48,24 +51,7 @@ namespace LiteDBProject
                 {
                     if (xmlReader.HasAttributes)
                     {
-                        using (var db = new LiteDB.LiteDatabase(@"C:\Users\epsi.ESTUDIANTE\Documents\FuryProyects\LiteDBProject\Resources\XmlPersonas.xml"))
-                        {
-                            var col = xmlReader.GetAttribute("nombres").ToList();
-
-                            var results = col.Query()
-                               .Where(x => x.Name.Contains("nombre"))
-                               .OrderBy(x => x.Name)
-                               .Select(x => new { x.Name })
-                               .Limit(10)
-                               .ToList();
-                        }
-                    }
-                }
-                else if ((xmlReader.NodeType == XmlNodeType.Element) && (xmlReader.Name == "edition"))
-                {
-                    if (xmlReader.HasAttributes)
-                    {
-                        Console.WriteLine(xmlReader.GetAttribute("language"));
+                        var result = xmlReader.GetAttribute("nombres").ToString();
                     }
                 }
             }
@@ -75,6 +61,7 @@ namespace LiteDBProject
 
         private void btnbuscar_Click(object sender, EventArgs e)
         {
+            /*
             using (var db = new LiteDB.LiteDatabase(@"C:\Temp\MyData.db"))
             {
                 // Get a collection (or create, if doesn't exist)
@@ -87,7 +74,11 @@ namespace LiteDBProject
                    .Limit(10)
                    .ToList();
             }
+            */
+            UsingXmlReader(Name);
+            lblprueba.Text = Name;
         }
+
 
         private void btninsert_Click(object sender, EventArgs e)
         {
@@ -200,7 +191,6 @@ namespace LiteDBProject
                 {
                     MessageBox.Show("Ingrese la informacion a buscar", MessageBoxIcon.Error.ToString());
                 }
-
             }
         }
     }

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\epsi.ESTUDIANTE\\Documents\\FuryProyects\\XmlPrueba\\XmlPrueba.csproj": {}
+    "C:\\Users\\Ender\\Documents\\Nuevos Proyectos\\Programacion2\\Calculadora\\XmlPrueba\\XmlPrueba.csproj": {}
   },
   "projects": {
-    "C:\\Users\\epsi.ESTUDIANTE\\Documents\\FuryProyects\\XmlPrueba\\XmlPrueba.csproj": {
+    "C:\\Users\\Ender\\Documents\\Nuevos Proyectos\\Programacion2\\Calculadora\\XmlPrueba\\XmlPrueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\epsi.ESTUDIANTE\\Documents\\FuryProyects\\XmlPrueba\\XmlPrueba.csproj",
+        "projectUniqueName": "C:\\Users\\Ender\\Documents\\Nuevos Proyectos\\Programacion2\\Calculadora\\XmlPrueba\\XmlPrueba.csproj",
         "projectName": "XmlPrueba",
-        "projectPath": "C:\\Users\\epsi.ESTUDIANTE\\Documents\\FuryProyects\\XmlPrueba\\XmlPrueba.csproj",
-        "packagesPath": "C:\\Users\\epsi.ESTUDIANTE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\epsi.ESTUDIANTE\\Documents\\FuryProyects\\XmlPrueba\\obj\\",
+        "projectPath": "C:\\Users\\Ender\\Documents\\Nuevos Proyectos\\Programacion2\\Calculadora\\XmlPrueba\\XmlPrueba.csproj",
+        "packagesPath": "C:\\Users\\Ender\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ender\\Documents\\Nuevos Proyectos\\Programacion2\\Calculadora\\XmlPrueba\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "F:\\VIsual Studio\\Visual Studio SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\epsi.ESTUDIANTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ender\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +50,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

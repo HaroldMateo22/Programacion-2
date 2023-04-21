@@ -64,7 +64,7 @@
             this.btnGuardarDB.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarDB.Location = new System.Drawing.Point(118, 252);
             this.btnGuardarDB.Name = "btnGuardarDB";
-            this.btnGuardarDB.Size = new System.Drawing.Size(111, 63);
+            this.btnGuardarDB.Size = new System.Drawing.Size(118, 63);
             this.btnGuardarDB.TabIndex = 1;
             this.btnGuardarDB.Text = "Guardar DB";
             this.btnGuardarDB.UseVisualStyleBackColor = true;
@@ -148,7 +148,7 @@
             this.btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardar.Location = new System.Drawing.Point(118, 184);
             this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(111, 62);
+            this.btnguardar.Size = new System.Drawing.Size(118, 62);
             this.btnguardar.TabIndex = 11;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = true;
@@ -159,9 +159,9 @@
             this.btnbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbuscar.Location = new System.Drawing.Point(280, 183);
             this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Size = new System.Drawing.Size(111, 65);
+            this.btnbuscar.Size = new System.Drawing.Size(118, 65);
             this.btnbuscar.TabIndex = 12;
-            this.btnbuscar.Text = "Buscar";
+            this.btnbuscar.Text = "BuscarXML";
             this.btnbuscar.UseVisualStyleBackColor = true;
             this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
@@ -209,7 +209,7 @@
             this.btnbuscardb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbuscardb.Location = new System.Drawing.Point(280, 252);
             this.btnbuscardb.Name = "btnbuscardb";
-            this.btnbuscardb.Size = new System.Drawing.Size(111, 65);
+            this.btnbuscardb.Size = new System.Drawing.Size(118, 65);
             this.btnbuscardb.TabIndex = 15;
             this.btnbuscardb.Text = "Buscar DB";
             this.btnbuscardb.UseVisualStyleBackColor = true;
