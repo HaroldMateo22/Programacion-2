@@ -17,6 +17,7 @@ namespace LiteDBProject
 {
     public partial class Form1 : Form
     {
+        public string resultado;
 
         public List<Customer> lstPersonas = new List<Customer>();
         private int n = 0;
@@ -35,11 +36,12 @@ namespace LiteDBProject
             InitializeComponent();
         }
 
-        static void Main(string[] args)
+        static void Valid(string[] args)
         {
             string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"C:\Users\Ender\Documents\Nuevos Proyectos\Programacion2\Calculadora\LiteDBProject - Copy\Resources\XmlPersonas.xml");
             UsingXmlReader(path);
         }
+
 
         private static void UsingXmlReader(string path)
         {
@@ -51,7 +53,7 @@ namespace LiteDBProject
                 {
                     if (xmlReader.HasAttributes)
                     {
-                        var result = xmlReader.GetAttribute("nombres").ToString();
+                        
                     }
                 }
             }
@@ -75,8 +77,7 @@ namespace LiteDBProject
                    .ToList();
             }
             */
-            UsingXmlReader(Name);
-            lblprueba.Text = Name;
+            
         }
 
 
