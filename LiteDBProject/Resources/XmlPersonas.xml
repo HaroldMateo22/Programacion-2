@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<compradores>
+	<comprador>
+		<nombres>harold</nombres>
+		<apellidos> mateo</apellidos>
+		<telefonos>809523</telefonos>
+		<cedulas>402297</cedulas>
+		<edades>20</edades>
+	</comprador>
+	<comprador>
+		<nombres>maria</nombres>
+		<apellidos>carmelia</apellidos>
+		<telefonos>829523</telefonos>
+		<cedulas>4025748</cedulas>
+		<edades>42</edades>
+	</comprador>
+	<comprador>
+		<nombres>cristina</nombres>
+		<apellidos>cruz</apellidos>
+		<telefonos>8295235412</telefonos>
+		<cedulas>402574865654</cedulas>
+		<edades>35</edades>
+	</comprador>
+	<comprador>
+		<nombres>mariano</nombres>
+		<apellidos>ramirez</apellidos>
+		<telefonos>829645352</telefonos>
+		<cedulas>40257412305</cedulas>
+		<edades>27</edades>
+	</comprador>
+	<comprador>
+		<nombres>carlos</nombres>
+		<apellidos>mateo</apellidos>
+		<telefonos>8496543217</telefonos>
+		<cedulas>0012174620</cedulas>
+		<edades>36</edades>
+	</comprador>
+</compradores>

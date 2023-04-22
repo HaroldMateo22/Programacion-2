@@ -1,4 +1,5 @@
-﻿hausing System;
+﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,11 +8,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Reflection;
+using System.Xml;
+using System.Xml.Linq;
+using System.CodeDom.Compiler;
 
 namespace LiteDBProject
 {
     public partial class Form1 : Form
     {
+        public string resultado;
 
         public List<Customer> lstPersonas = new List<Customer>();
         private int n = 0;
@@ -28,6 +34,49 @@ namespace LiteDBProject
         public Form1()
         {
             InitializeComponent();
+        }
+
+        public int diferencia;
+
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+            
+                
+                XmlDocument xmlDock = new XmlDocument();
+                xmlDock.Load("XmlPersonas.xml");
+                string tagname = "comprador";
+                XmlNodeList nodes = xmlDock.GetElementsByTagName(tagname);
+                int ver = 0;
+
+            foreach (XmlNode node in nodes)
+            {
+
+                if (node.InnerText.Contains(txtbusqueda.Text))
+                {
+                    string nombres = node.SelectSingleNode("nombres").InnerText;
+                    string apellidos = node.SelectSingleNode("apellidos").InnerText;
+                    string telefonos = node.SelectSingleNode("telefonos").InnerText;
+                    string cedulas = node.SelectSingleNode("cedulas").InnerText;
+                    string edades = node.SelectSingleNode("edades").InnerText;
+                    dtgvCustomers.Rows.Add(nombres, apellidos, telefonos, cedulas, edades);
+                    ver ++;
+                }
+            }
+
+            if (ver != 0)
+            {
+                MessageBox.Show("Informacion Encontrada", MessageBoxIcon.Error.ToString());
+            } 
+            else
+            { 
+                MessageBox.Show("Informacion no Encontrada", MessageBoxIcon.Error.ToString()); 
+            }
+
+            if (txtbusqueda.Text.Length == 0)
+            {
+                MessageBox.Show("Inserte Informacion", MessageBoxIcon.Error.ToString());
+            }
+
         }
 
 
@@ -56,7 +105,7 @@ namespace LiteDBProject
             {
                 DateTime fechausuario = dtpedad.Value;
                 DateTime fechaactual = DateTime.Now;
-                int diferencia = fechaactual.Year - fechausuario.Year;
+                diferencia = fechaactual.Year - fechausuario.Year;
                 if (fechausuario > fechaactual.AddYears(-diferencia))
                 {
                     diferencia--;
@@ -100,7 +149,34 @@ namespace LiteDBProject
             public string Identification { get; set; }
             public string BornDate { get; set; }
             public string[] Phones { get; set; }
-            public bool IsActive { get; set; }
+        }
+
+        private void btnbuscardb_Click(object sender, EventArgs e)
+        {
+            using (var db = new LiteDB.LiteDatabase(@"C:\Temp\MyData.db"))
+            {
+                // Get a collection (or create, if doesn't exist)
+                var col = db.GetCollection<Customer>("customers");
+
+
+                if (txtbusqueda.Text != "")
+                {
+                    var results = col.Query()
+                    .Where(x => x.Name.Contains(txtbusqueda.Text))
+                    .Select(x => new {x.Name})
+                    .ToString();
+
+                    foreach (var x in results)
+                    {
+                        n = dtgvCustomers.Rows.Add();
+                        dtgvCustomers.Rows[n].Cells[(int)columnas.nombre].Value = x;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Ingrese la informacion a buscar", MessageBoxIcon.Error.ToString());
+                }
+            }
         }
     }
 }

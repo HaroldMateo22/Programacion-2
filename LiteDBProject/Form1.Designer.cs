@@ -47,6 +47,9 @@
             this.dtgTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgCedula = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgEdad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnbuscardb = new System.Windows.Forms.Button();
+            this.txtbusqueda = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvCustomers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,9 +63,9 @@
             // btnGuardarDB
             // 
             this.btnGuardarDB.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarDB.Location = new System.Drawing.Point(215, 212);
+            this.btnGuardarDB.Location = new System.Drawing.Point(118, 252);
             this.btnGuardarDB.Name = "btnGuardarDB";
-            this.btnGuardarDB.Size = new System.Drawing.Size(111, 63);
+            this.btnGuardarDB.Size = new System.Drawing.Size(118, 63);
             this.btnGuardarDB.TabIndex = 1;
             this.btnGuardarDB.Text = "Guardar DB";
             this.btnGuardarDB.UseVisualStyleBackColor = true;
@@ -127,7 +130,7 @@
             // 
             // dtpedad
             // 
-            this.dtpedad.Location = new System.Drawing.Point(171, 149);
+            this.dtpedad.Location = new System.Drawing.Point(70, 127);
             this.dtpedad.Name = "dtpedad";
             this.dtpedad.Size = new System.Drawing.Size(183, 20);
             this.dtpedad.TabIndex = 9;
@@ -135,7 +138,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(212, 123);
+            this.label5.Location = new System.Drawing.Point(67, 111);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(108, 13);
             this.label5.TabIndex = 10;
@@ -144,9 +147,9 @@
             // btnguardar
             // 
             this.btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnguardar.Location = new System.Drawing.Point(27, 213);
+            this.btnguardar.Location = new System.Drawing.Point(118, 184);
             this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(111, 62);
+            this.btnguardar.Size = new System.Drawing.Size(118, 62);
             this.btnguardar.TabIndex = 11;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = true;
@@ -155,12 +158,13 @@
             // btnbuscar
             // 
             this.btnbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbuscar.Location = new System.Drawing.Point(397, 213);
+            this.btnbuscar.Location = new System.Drawing.Point(280, 183);
             this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Size = new System.Drawing.Size(111, 65);
+            this.btnbuscar.Size = new System.Drawing.Size(118, 65);
             this.btnbuscar.TabIndex = 12;
-            this.btnbuscar.Text = "Buscar";
+            this.btnbuscar.Text = "BuscarXML";
             this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // dtgvCustomers
             // 
@@ -201,11 +205,41 @@
             this.dtgEdad.HeaderText = "Edad";
             this.dtgEdad.Name = "dtgEdad";
             // 
+            // btnbuscardb
+            // 
+            this.btnbuscardb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnbuscardb.Location = new System.Drawing.Point(280, 252);
+            this.btnbuscardb.Name = "btnbuscardb";
+            this.btnbuscardb.Size = new System.Drawing.Size(118, 65);
+            this.btnbuscardb.TabIndex = 15;
+            this.btnbuscardb.Text = "Buscar DB";
+            this.btnbuscardb.UseVisualStyleBackColor = true;
+            this.btnbuscardb.Click += new System.EventHandler(this.btnbuscardb_Click);
+            // 
+            // txtbusqueda
+            // 
+            this.txtbusqueda.Location = new System.Drawing.Point(280, 127);
+            this.txtbusqueda.Name = "txtbusqueda";
+            this.txtbusqueda.Size = new System.Drawing.Size(183, 20);
+            this.txtbusqueda.TabIndex = 16;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(281, 111);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(55, 13);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Busqueda";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(549, 552);
+            this.ClientSize = new System.Drawing.Size(549, 551);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtbusqueda);
+            this.Controls.Add(this.btnbuscardb);
             this.Controls.Add(this.dtgvCustomers);
             this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.btnguardar);
@@ -249,6 +283,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgTelefono;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgCedula;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgEdad;
+        private System.Windows.Forms.Button btnbuscardb;
+        private System.Windows.Forms.TextBox txtbusqueda;
+        private System.Windows.Forms.Label label6;
     }
 }
 
